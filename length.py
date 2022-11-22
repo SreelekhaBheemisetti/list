@@ -5,3 +5,5 @@ while i<len(numbers):
     c+=1
     i+=1
 print("number of elements in list:",c)
+
+# print(len(numbers))
