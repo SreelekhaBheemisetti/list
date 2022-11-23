@@ -17,19 +17,25 @@
      
 a=[2,4,1,7,5,9]
 b=[]
-c=[]
-min=a[0]
 i=0
 while i<len(a):
-    if a[i]<min:
-        min=a[i]
-        b.append(min)
+    min=a[0]
+    j=0
+    while j<len(a):
+        if a[i]<min:
+            min=a[i]
+            b.append(min)
+            a.remove(min)
+        j+=1
     i+=1
-j=-1
-while j>=-len(b):
-    c.append(b[j])
-    j-=1
-    print(c)
+print(b)
+        
+
+# j=-1
+# while j>=-len(b):
+#     c.append(b[j])
+#     j-=1
+#     print(c)
 
 
 
