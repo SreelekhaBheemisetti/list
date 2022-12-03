@@ -5,17 +5,17 @@
 
 
 
-# a= [10, 11, 12, 13, 14, 17, 18, 19]
-# b=[]
-# n=30
-# i=0
-# while i<len(a):
-#     j=0
-#     while j<len(a):
-#         if a[i]+a[j]==n:
-#             d=[a[i],a[j]]
-#             b.append(d)
-#         j+=1
-#     i+=1
-# print(b)
+a= [10, 11, 12, 13, 14, 17, 18, 19]
+b=[]
+n=30
+i=0
+while i<len(a):
+    j=0
+    while j<len(a):
+        if a[i]+a[j]==n:
+            d=[a[i],a[j]]
+            b.append(d)
+        j+=1
+    i+=1
+print(b)
 

@@ -6,7 +6,7 @@ a="SrEeLeKhA"
 b=[]
 i=0
 while i<len(a):
-    c=a.upper()
+    c=a[i].upper()
     b.append(c)
     i+=1
 print(b)
